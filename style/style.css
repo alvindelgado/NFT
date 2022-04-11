@@ -40,6 +40,15 @@ body {
     cursor: pointer;
 }
 
+.button:hover {
+    color: var(--Very-dark-blackish-blue);
+    background-color: var(--White);
+}
+
+.button:disabled {
+    opacity: 0.5;
+}
+
 .NFT {
     margin-top: 10 px;
     border-radius: 10px;
