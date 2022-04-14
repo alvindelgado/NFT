@@ -1,9 +1,9 @@
 import { createButton } from './Assets/createButtom.js'
 import { createCard } from './Assets/CreateCard.js'
 import { buttonDisabled } from './Assets/buttonDisabled.js'
-const maxCards = 1
+const minCards = 1
 const state = {
-    quantity: maxCards,
+    quantity: minCards,
 }
 createButton("Add Card", "addCard")
 createButton("Remove Card", "removeCard")

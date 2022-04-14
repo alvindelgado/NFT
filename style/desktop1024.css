@@ -1,9 +1,16 @@
 .NFT {
-    width: 23%;
+    width: 100%;
 }
 
-body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#app {
+    padding: 10vh 6vw 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+.Container {
+    grid-column: 1/5;
 }

@@ -8,13 +8,25 @@ export function createCard() {
     NFTtop.className = 'NFT-top'
     NFT.appendChild(NFTtop)
 
+
     const mountNode = document.querySelector("#app")
     mountNode.appendChild(NFT)
 
     const imagen = document.createElement('img')
     imagen.src = './img/image-equilibrium.jpg'
     NFTtop.appendChild(imagen)
-        //center
+
+    const NFTvista = document.createElement('div')
+    NFTvista.className = 'NFT-vista'
+    NFTtop.appendChild(NFTvista)
+
+    const imagenvista = document.createElement('img')
+    imagenvista.src = './img/icon-view.svg'
+    NFTvista.appendChild(imagenvista)
+
+
+
+    //center
     const NFTcenter = document.createElement('div')
     NFTcenter.className = 'NFT-center'
     NFT.appendChild(NFTcenter)
